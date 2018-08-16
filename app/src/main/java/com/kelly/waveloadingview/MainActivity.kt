@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private var currentPos = 10
+    private var currentPos = 0
     private val maxProgress = 100
 
     override fun onCreate(savedInstanceState: Bundle?) {

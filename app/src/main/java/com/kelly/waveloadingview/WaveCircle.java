@@ -149,9 +149,11 @@ public class WaveCircle extends View {
         mPath.quadTo(conP3.x, conP3.y, dataP4.x, dataP4.y);
         mPath.quadTo(conP4.x, conP4.y, dataP5.x, dataP5.y);
 
+        //连接点
         mPath.lineTo(dataP5.x, mHeight);
         mPath.lineTo(-mWidth, mHeight);
 
+        //绘制路径
         mCanvas.drawPath(mPath, mWavePaint);
 
         //画在画布上
